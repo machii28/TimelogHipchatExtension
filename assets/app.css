@@ -1,0 +1,11 @@
+.view-content {
+	width: 500px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btn-success,
+.btn-danger {
+	border-radius: 0px;
+}

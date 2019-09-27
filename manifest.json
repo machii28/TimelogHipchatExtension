@@ -1,0 +1,22 @@
+{
+	"name": "Hipchat TimeLog",
+	"version": "1.0",
+	"manifest_version":	2,
+	"description": "A single click away to Checkin and Checkout",
+	"homepage_url": "http://google.com",
+	"icons": {
+		"16" : "icon/icon16.png",
+		"32" : "icon/icon32.png",
+		"128" : "icon/icon128.png"
+	},
+	"background" : {
+		"scripts" : [
+			"src/bg/background.js"
+		],
+		"persistent" : true
+	},
+	"browser_action": {
+		"default_title" : "Log your time!!",
+		"default_popup" : "html/popup.html"
+	}
+}
